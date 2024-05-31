@@ -25,6 +25,12 @@ html {
     background-color: #1d1a1a;
 }
 
+.user {
+    margin-top: 5px;
+    background-color: #1d1a1a;
+    border: none;
+}
+
 
 nav {
     display: flex;
@@ -260,7 +266,7 @@ nav {
 }
 
 .col-md-3 img {
-    width: 300px;
+    width: 320px;
     height: 200px;
     padding: 0;
     margin: 0;
@@ -281,6 +287,15 @@ nav {
 
 .list-upcom {
     border-bottom: 2px solid #3f3c3c;
+}
+
+.list-upcom .check-list {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    margin-right: 75px;
 }
 
 .list-item .bar {
@@ -332,8 +347,15 @@ nav {
     text-align: center;
     color: goldenrod;
 }
- h4 {
+
+.featured-auctions p {
     color: #fff;
+}
+ h4 {
+    color: goldenrod;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 25px;
 }
 
 .margin-item {

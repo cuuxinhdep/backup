@@ -11,11 +11,11 @@
 <body>
     <div id="wrapper">
         <div id="header">
-            <a href="" class="logo">
+            <a href="../auction1/index.html" class="logo">
                 <img src="image/logo.png" alt="">
             </a>
             <ul id="main-menu">
-                <li><a href="">Home</a></li>
+                <li><a href="../auction1/index.html">Home</a></li>
                 <li><a href="">Product</a>
                     <ul class="sub-menu">
                         <li><a href="">meu 2.1</a></li>
@@ -32,7 +32,7 @@
                     </ul>
                 </li>
                 <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="../auction1/contact.us.html">Contact</a></li>
             </ul>
             <div id="actions">
                 <form action="" id="search">
@@ -41,11 +41,13 @@
                 </form>
                 <div class="item user-item">
                     <form action="../auction1/login.html">
-                        <button><img src="image/user.png" alt=""></i></button>
+                        <button class="user"><i class="fa-solid fa-user fa-xl" style="color: goldenrod;"></i></button>
                     </form>
                 </div>
                 <div class="item">
-                    <img src="image/cart.png" alt="">
+                    <form action="../auction1/login.html">
+                        <button class="user"><i class="fa-solid fa-bell fa-xl" style="color: goldenrod;"></i></button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -85,9 +87,9 @@
                         <button class="lot-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                     <div class="select-opt">
-                        <label><input type="radio" name="choosing" value="in this auction" checked="checked">in this auction</label>
+                        <label><input type="radio" name="choosing" value="in this auction" checked="checked"><span>in this auction</span></label>
                         <br>
-                        <label><input type="radio" name="choosing" value="lot number">lot number</label>
+                        <label><input type="radio" name="choosing" value="lot number"><span>lot number</span></label>
 
                     </div>
                 </div>
@@ -98,7 +100,7 @@
                         <h1 class="auction-title">Refine Your Search</h1>
                     </div>
                     <div>
-                        <div>
+                        <div class="img-search">
                             <a href="">Lots with image only</a>
                         </div>
                         <div class="sale-section">
