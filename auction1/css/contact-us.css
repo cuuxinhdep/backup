@@ -11,7 +11,7 @@ html {
 #wrapper {
     width: 100%;
     height: 100vh;
-    background-color: rgb(255, 255, 255);;
+    background-color: #1d1a1a;
 }
 #header {
     width: 100%;
@@ -23,23 +23,84 @@ html {
     background-color: #1d1a1a;
 }
 
-
-#menu {
-    list-style:none;
-    display: flex;
+.user {
+    margin-top: 5px;
+    background-color: #1d1a1a;
+    border: none;
 }
-#menu .item {
-    margin:0px 25px 0px 25px;
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
     font-size: medium;
     font-weight: bold;
 }
-#menu .item a {
-    color:goldenrod;
+
+/* #logo {
+    padding: 5px 0px;
+} */
+
+/* #logo img {
+    max-width: 50px;
+    height: auto;
+} */
+
+#main-menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 150px;
+}
+
+#main-menu li {
+    position: relative;
+}
+
+#main-menu li a {
+    color: goldenrod;
+    display: block;
+    padding: 18px 20px;
     text-decoration: none;
 }
 
-#menu .item a:hover {
-    color: goldenrod ;
+#main-menu ul.sub-menu{
+    position: absolute;
+    background-color: #1d1a1a;
+    padding: 15px 0px;
+    list-style: none;
+    width: 200px;
+    border-bottom: 1px solid #363333;
+    display: none;
+}
+
+#main-menu li:hover>ul.sub-menu {
+    display: block;
+}
+
+#main-menu ul.sub-menu a{
+    padding: 8px 15px;
+    border-bottom: 1px solid #363333;
+    left: 0;
+}
+
+#main-menu ul.sub-menu li:hover>a{
+    border-bottom: 1px solid gold;
+    transition: 0.4s;
+
+}
+
+#main-menu ul.sub-menu li:last-child a{
+    border: none;
+}
+
+#main-menu ul.sub-menu ul.sub-menu{
+    left: 201px;
+    top: -15px;
 }
 
 #actions {
@@ -83,6 +144,9 @@ html {
     display: flex;
     justify-content: space-around;
 }
+
+
+
 
 
 
@@ -186,13 +250,13 @@ color: #fff;
     background: transparent; */
 }
 .tong{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-around; */
     
 }
 .tong2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 h1{
     color: goldenrod;

@@ -117,6 +117,7 @@ html {
     padding: 0;
     margin: 0;
     border-radius: 30px;
+    
 
 
 
@@ -190,12 +191,22 @@ html {
     
 }
 .col3 form {
-    display:-webkit-inline-flex;
+    display:-webkit-inline-flex
+    
 
     
 }
 .col3 form p {
     color: goldenrod;
+}
+.col3 form input {
+    height: 25px;
+    width: 120px;
+    
+    
+}
+.col3 form input image {
+    height: 300px;
 }
 
 
