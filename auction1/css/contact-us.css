@@ -250,8 +250,8 @@ color: #fff;
     background: transparent; */
 }
 .tong{
-    /* display: flex; */
-    /* justify-content: space-around; */
+    display: flex;
+    justify-content: space-around;
     
 }
 .tong2{
