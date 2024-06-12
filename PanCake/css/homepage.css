@@ -56,6 +56,33 @@
     /* text-align: center; */
 }
 
+#venue {
+    width: 247px;
+    height: 40px;
+    background-color: #ec4156;
+    border: none;
+    outline: none;
+    color: #fcfcfc;
+}
+
+#venue-event {
+    width: 247px;
+    height: 40px;
+    background-color: #0b1f50;
+    border: none;
+    outline: none;
+    color: #fcfcfc;
+}
+
+#venue-rev {
+    width: 247px;
+    height: 40px;
+    background-color: #fcfcfc;
+    border: none;
+    outline: none;
+    color: black;
+}
+
 .container-fluid .header-content .chevron-select {
     background-color: #fcfcfc;
     display: flex;
@@ -70,6 +97,10 @@
 
 .container-fluid .header-content .chevron-select-event {
     background-color: #0b1f50;
+}
+
+#venue .venue-event {
+    background-color: #fcfcfc;
 }
 
 .container-fluid .header-content .chevron-select-party {
@@ -107,8 +138,7 @@
 
 .container-fluid .header-content .fuction-box:hover  {
     background-color: #fcfcfc;
-    text-transform: none;
-    transition: 0.4s;
+    transition: 0.4s ease-in-out;
 }
 
 .container-fluid .header-content .color-event {
